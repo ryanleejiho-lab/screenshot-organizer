@@ -25,3 +25,9 @@ This will:
 
 Reverts screenshots/recordings to save to the Desktop again and removes the
 LaunchAgent. `~/Screenshots` and anything in it are left alone.
+
+## Note for forks
+
+`com.ryanlee.screenshot-organizer.plist` hardcodes `/Users/ryanlee/Screenshots`
+(launchd plists can't expand `$HOME`). If you fork this, edit that path to
+match your own username before running `install.sh`.
