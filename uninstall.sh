@@ -11,4 +11,4 @@ echo "Reverting screenshot save location to Desktop..."
 defaults delete com.apple.screencapture location 2>/dev/null || true
 killall SystemUIServer 2>/dev/null || true
 
-echo "Done. ~/Screenshots and its contents were left untouched."
+echo "Done. ~/Desktop/Screenshots and its contents were left untouched."

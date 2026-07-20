@@ -8,11 +8,15 @@
     <array>
         <string>/bin/mkdir</string>
         <string>-p</string>
-        <string>/Users/ryanlee/Screenshots</string>
+        <string>/Users/ryanlee/Desktop/Screenshots</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>StartInterval</key>
     <integer>3600</integer>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/ryanlee/Desktop/Screenshots</string>
+    </array>
 </dict>
 </plist>

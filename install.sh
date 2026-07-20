@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-SCREENSHOTS_DIR="$HOME/Screenshots"
+SCREENSHOTS_DIR="$HOME/Desktop/Screenshots"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PLIST_SRC="$SCRIPT_DIR/com.ryanlee.screenshot-organizer.plist"
 PLIST_DEST="$HOME/Library/LaunchAgents/com.ryanlee.screenshot-organizer.plist"
